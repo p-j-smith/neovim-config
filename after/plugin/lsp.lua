@@ -5,6 +5,17 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
+  'ansiblels',
+  'bashls',
+  'dockerls',
+  'ltex',
+  'marksman',
+  'matlab_ls',
+  'pyright',
+  'taplo',
+  'terraformls',
+  'tflint',
+  'yamlls',
 })
 
 -- Fix Undefined global 'vim'
